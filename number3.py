@@ -1,11 +1,25 @@
 # Задайте список из нескольких чисел. Напишите программу, которая найдёт сумму элементов списка, стоящих на нечётной позиции.
-n = int(input('Введите число : '))
-import random
-a = []
-for i in range (0, n):
-    a.append(random.randint(1,20))
-print('Наш список: ', a)
-sum = 0
-for i in range (1, n, 2):
-    sum += a[i]
-print('Сумма элементов на нечетных позициях= ', sum)
+# n = int(input('Введите число : '))
+# import random
+# a = []
+# for i in range (0, n):
+#     a.append(random.randint(1,20))
+# print('Наш список: ', a)
+# sum = 0
+# for i in range (1, n, 2):
+#     sum += a[i]
+# print('Сумма элементов на нечетных позициях= ', sum)
+
+# Напишите программу, которая найдёт произведение пар чисел списка. 
+# Парой считаем первый и последний элемент, второй и предпоследний и т.д.
+# n = int(input('Введите число : '))
+# import random
+# a = []
+# for i in range (0, n):
+#     a.append(random.randint(1,20))
+# print('Наш список: ', a)
+# b = []
+# for i in range (0, int(n/2+n%2)):
+#     b.append(a[i]*a[n-1-i])
+# print('Произведение пар: ', b)
+
